@@ -1,0 +1,62 @@
+
+body{
+    background-color: rgb(116, 202, 94);
+    min-height: 100vh;
+}
+.main{
+    background: rgb(202, 154, 154);
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ height: 500px;
+ width: 500px;
+ margin: auto;
+ margin-top: 40px;
+ border: black solid;
+ border-radius: 1rem;
+}
+
+.main:hover{
+    background-image: linear-gradient(to right top, #1b4799, #703d9d, #aa268d, #d5006d, #eb1241);
+  }
+
+input{
+    font-size: 2em;
+  border: 3px black solid;
+  border-radius: 0.5rem;
+  padding-left: 5px;
+}
+button{
+    font-size: 2em;
+    width: 60px;
+}
+h1{
+    color:black
+}
+h2{
+    background:rgb(21, 219, 31);
+    border: black solid;
+    width: 150px;
+    height: 40px;
+    border-radius: 0.5rem;
+    padding-left: 5px;
+}
+button:nth-child(1){
+    background: rgb(226, 76, 76);
+}
+button:nth-child(2){
+    background: rgb(50, 122, 205);
+}
+button:nth-child(3){
+    background: magenta;
+}
+button:nth-child(4){
+    background: orangered;
+}
+button:nth-child(5){
+    background:rgb(220, 223, 36);
+}
+
+
+
+
